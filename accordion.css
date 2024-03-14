@@ -4,7 +4,7 @@ body
     font-style: normal;
     margin: 0;
     padding: 0;
-    background-color: rgb(132, 189, 240);
+    background-color: rgb(245, 249, 253);
     display: flex;
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */
@@ -12,16 +12,33 @@ body
 }
 .main_div
 {
-    background-color: aliceblue;
+    background-color: rgb(215, 224, 232);
     height: 500px;
-    width: 400px;
-    border: 2px solid black;
+    width: 380px;
+    border: 3px solid black;
     border-radius: 20px;
+    padding-top: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
 }
 .sub_div
 {
     display: flex;
     flex-direction: row;
-    padding-top: 30px;
-    padding-left: 20px;
+}
+.main
+{
+    padding-left: 25px;
+}
+.answer
+{
+    width: 320px;
+    text-align: center;
+    background-color: rgb(234, 244, 241);
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+}
+.question_class
+{
+    padding-left: 10px;
 }
