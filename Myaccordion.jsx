@@ -6,6 +6,9 @@ const Myaccordion = () => {
     return (
         <>
             <div className="main_div">
+                <div className="title">
+                    <h3>Hi!! Jayesh Here</h3>
+                </div>
                 {
                     data.map((curElement) => {
                         return <Myaccordion2 key={curElement.id} {...curElement} />
